@@ -162,57 +162,135 @@ AI-SOC-Threat-Detection-System/
 
 ## ⚙️ Installation & Setup
 
+Ahh got it — this is a **Markdown formatting issue** (very common).
+Everything after `### 1️⃣ Clone Repository` is getting nested because the code block wasn’t closed properly.
+
+---
+
+# ❌ PROBLEM
+
+You wrote:
+
+````markdown
+```bash
+git clone ...
+cd ...
+### 2️⃣ Create Virtual Environment   ❌ (inside code block)
+````
+
+👉 So GitHub thinks EVERYTHING is part of the code block.
+
+---
+
+# ✅ 🔥 FIXED VERSION (COPY-PASTE THIS)
+
+---
+
+````markdown
+## ⚙️ Installation & Setup
+
 ### 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/siri-2787/AI-SOC-Threat-Detection-System.git
 cd AI-SOC-Threat-Detection-System
-2️⃣ Create Virtual Environment
+````
 
-Windows
+---
 
+### 2️⃣ Create Virtual Environment
+
+**Windows**
+
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
-Mac/Linux
+**Mac/Linux**
 
+```bash
 python3 -m venv venv
 source venv/bin/activate
-3️⃣ Install Dependencies
+```
+
+---
+
+### 3️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
-▶️ Running the Project
-🔹 Step 1: Train Model
+```
+
+---
+
+## ▶️ Running the Project
+
+### 🔹 Step 1: Train Model
+
+```bash
 python main.py
-🔹 Step 2: Run API
+```
+
+### 🔹 Step 2: Run API
+
+```bash
 cd api
 python app.py
-🔹 Step 3: Run Dashboard
+```
+
+### 🔹 Step 3: Run Dashboard
+
+```bash
 cd dashboard
 streamlit run app.py
-🧪 Sample Output
-🟢 NORMAL → Safe traffic
-🚨 ATTACK → Threat detected
-🔴 HIGH → Critical risk
-📊 Threat Score → 0–100
-📊 Results
-Accurate detection of:
-DoS attacks
-Network probes
-Normal traffic
-Real-time simulation capability
-SOC-style threat scoring system
-🎯 Learning Outcomes
-Machine Learning in Cybersecurity
-SOC workflow simulation
-API development using Flask
-Dashboard creation using Streamlit
-Threat intelligence system design
-📈 Future Enhancements
-🔹 Real-time packet capture (Wireshark integration)
-🔹 Deep Learning (LSTM / Autoencoders)
-🔹 Cloud deployment (AWS / GCP)
-🔹 SIEM integration
-👩‍💻 Author
+```
 
-P Siri Reddy
+---
+
+## 🧪 Sample Output
+
+* 🟢 NORMAL → Safe traffic
+* 🚨 ATTACK → Threat detected
+* 🔴 HIGH → Critical risk
+* 📊 Threat Score → 0–100
+
+---
+
+## 📊 Results
+
+* Accurate detection of:
+
+  * DoS attacks
+  * Network probes
+  * Normal traffic
+* Real-time simulation capability
+* SOC-style threat scoring system
+
+---
+
+## 🎯 Learning Outcomes
+
+* Machine Learning in Cybersecurity
+* SOC workflow simulation
+* API development using Flask
+* Dashboard creation using Streamlit
+* Threat intelligence system design
+
+---
+
+## 📈 Future Enhancements
+
+* 🔹 Real-time packet capture (Wireshark integration)
+* 🔹 Deep Learning (LSTM / Autoencoders)
+* 🔹 Cloud deployment (AWS / GCP)
+* 🔹 SIEM integration
+
+---
+
+## 👩‍💻 Author
+
+**P Siri Reddy**
 CSE Student
+
+
