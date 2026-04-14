@@ -160,33 +160,9 @@ AI-SOC-Threat-Detection-System/
 
 ---
 
-## ⚙️ Installation & Setup
 
-Ahh got it — this is a **Markdown formatting issue** (very common).
-Everything after `### 1️⃣ Clone Repository` is getting nested because the code block wasn’t closed properly.
 
----
 
-# ❌ PROBLEM
-
-You wrote:
-
-````markdown
-```bash
-git clone ...
-cd ...
-### 2️⃣ Create Virtual Environment   ❌ (inside code block)
-````
-
-👉 So GitHub thinks EVERYTHING is part of the code block.
-
----
-
-# ✅ 🔥 FIXED VERSION (COPY-PASTE THIS)
-
----
-
-````markdown
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone Repository
